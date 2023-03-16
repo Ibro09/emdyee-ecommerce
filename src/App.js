@@ -1,24 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import Sidebar from "./components/Sidebar";
+// import Submenu from "./components/Submenu";
+import Home from "./components/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Shop from "./components/Shop";
+import Sharedlayout from "./components/SharedLayout";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ProductDetails from "./components/ProductDetails";
+import ErrorPage from "./components/ErrorPage";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Sharedlayout>
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/products' element={<Shop />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/contact' element={<Contact />} />
+            <Route path='/products/:id' element={<ProductDetails />} />
+            <Route path='*' element={<ErrorPage />} />
+          </Routes>
+        </Sharedlayout>
+        <Sidebar />
+        {/* <Submenu /> */}
+      </BrowserRouter>
+    </>
   );
 }
 

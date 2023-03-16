@@ -1,0 +1,251 @@
+/*
+========FOOTER========
+*/
+footer{
+  background-color: var(--blue-charcoal);
+  padding:4rem 0 2rem 0 ;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+text-align: center;
+}
+.footer-center{
+  width: 85%;
+  /* color: var(--clr-primary-5); */
+      color:var(--clr-primary-5);
+
+
+}
+.footer-link-container{
+   display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid;
+  /* color:var(--clr-primary-5) */
+    color:var(--clr-primary-2);
+
+}
+.footer-txt{
+  width: 30%;
+  height: 100%;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+  height: 195px;
+  color:var(--clr-primary-6);
+
+}
+
+.footer-icons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-icons a{
+  color: var(--clr-primary-6);
+}
+.footer-links{
+  width: 70%;
+   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.footer-link{
+   width: 30%;
+   text-align: left;
+   padding: 1rem 0 0rem 2rem;
+   min-width: 130px;
+   
+}
+.footer-link h6{
+  margin-bottom: 2rem;
+     text-align: left;
+
+}
+.footer-head{
+font-size: var(--font-size-xl);
+display: flex;
+width: 100%;
+color:var(--clr-primary-6);
+
+}
+.footer-link li{
+   margin-bottom: 1rem;
+  width: 100px;
+
+}
+.footer-link li:hover ::before {
+   content: '> ';
+   color: var(--clr-primary-5);
+}
+.footer-link li a:hover {
+   content: '> ';
+   color: var(--clr-primary-5);
+}
+.ibrahim{
+  margin-top: 1rem;
+  border-top: 2px solid;
+  padding-top: 20px;
+}
+.footer-head span{
+  display: none;
+}
+
+.footer-links .social{
+  display: none;
+}
+@media (min-width:250px) and (max-width: 500px) {
+ a .contact{
+  display: none;
+ }
+
+
+}
+@media (min-width:250px) and (max-width: 740px) {
+ .footer-link-container{
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  padding: 0;
+  border-bottom: 1px solid ;
+  justify-content: center;
+  align-items: center;
+
+ }
+ .shoe-product{
+  width: 80%;
+ 
+}
+.shoe-product span{
+ 
+  width: 100%;
+
+}
+  .benefits-rect {
+  width: 70%;
+ 
+}
+ .footer-center{
+  width: 100%;
+ }
+ .footer-links{
+  width: 100%;
+  justify-content: center;
+ }
+ .footer-link{
+  width: 95%;
+    padding:.3rem .7rem;
+    border-bottom: 1px solid var(--clr-primary-5);
+    overflow: hidden;
+
+ }
+
+
+ .footer-txt p,.footer-txt .social{
+  display: none;
+ }
+ .footer-txt {
+ width: 100%;
+ height: auto;
+ }
+ .footer-links .social{
+  display: flex;
+  /* border: 1px solid; */
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+.footer-links .social ul{
+  display: flex;
+  /* border: 1px solid; */
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+}
+.footer-links .social ul li{
+  font-size: var(--font-size-xl);
+  color: var(--eastern-blue);
+  margin: 40px 0 20px 0;
+  transition: .5s;
+
+}
+.footer-links .social ul li:hover{
+    color: var(--clr-primary-5);
+transition: .5s;
+}
+
+.tran{
+transition: all 2.3s linear;
+/* display: none; */
+}
+
+ .footer-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  cursor: pointer;
+color:var(--clr-primary-6);
+
+ }
+ .footer-head h6{
+  padding: 0;
+  margin: 0;
+ }
+ .footer-head span{
+  display: block;
+}
+ .footer-link ul{
+  padding:0 2rem;
+ }
+}
+.displaynone{
+display: none;
+transition: all 10.3s linear;
+}
+@media (min-width:700px) and (max-width: 740px) {
+
+.footer-links .social ul li:hover{
+    color: var(--clr-primary-5);
+transition: .5s;
+}
+
+.tran{
+transition: all 2.3s linear;
+}
+
+ .footer-head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  cursor: pointer;
+color:var(--clr-primary-6);
+
+ }
+
+ .footer-head h6{
+  padding: 0;
+  margin: 0;
+ }
+ .footer-head span{
+  display: block;
+}
+ .footer-link ul{
+  padding:0 2rem;
+ }
+}
+@media (min-width:740px) and (max-width: 1700px) {
+     .displaynone{
+    display: block;
+ }
+}
+/*
+========FOOTER========
+*/

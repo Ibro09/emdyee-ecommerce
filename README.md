@@ -68,3 +68,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+#### Details of storyy
+
+<input type="checkbox"/> create cart page where signed in users can add items to cart
+2. [ ] create cart page where signed in users can add items to cart
+3. [ ] create cart page where signed in users can add items to cart
